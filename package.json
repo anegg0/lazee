@@ -1,0 +1,59 @@
+{
+  "name": "lazee",
+  "version": "1.0.0",
+  "description": "CLI tool that lets you use plain English to instruct OpenAI LLM models to add generated docstrings to your codebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anegg0/lazee.git"
+  },
+  "keywords": [
+    "docstrings",
+    "llm",
+    "javascript",
+    "cli",
+    "ai",
+    "command-line",
+    "docstring-assistant",
+    "gpt-3",
+    "gpt3",
+    "gpt-4",
+    "gpt4",
+    "chatgpt",
+    "gpt-35-turbo",
+    "gpt-4-1106-preview",
+    "gpt-4o",
+    "gpt4o"
+  ],
+  "author": "Gael Blanchemain",
+  "license": "BUSL-1.1",
+  "bugs": {
+    "url": "https://github.com/anegg0/lazee/issues"
+  },
+  "homepage": "https://github.com/anegg0/lazee#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.8"
+  },
+  "files": ["src/**", "*.js", "*.ts"],
+  "dependencies": {
+    "commander": "^10.0.0",
+    "gpt-3-encoder": "^1.1.4",
+    "liquidjs": "^10.7.0",
+    "openai": "^3.3.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.3",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
